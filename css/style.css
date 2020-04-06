@@ -1,0 +1,400 @@
+*{
+    font-family: 'Baloo Paaji 2', cursive;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+h1,h2,.skills-container-inner p{
+  font-family: 'Lobster', cursive;
+}
+
+span{
+  color:wheat;
+}
+
+.main-header{
+    background-image: url('../img/maldives-666122_1920.jpg');
+    height: 92vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+
+.main-header-header{
+  animation-duration: 3s;
+  animation-name: slidein;
+  text-shadow: 2px 2px black;
+  text-align: center;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+  }
+}
+
+.main-header-header{
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 8vh;
+  margin-top: 10vh;
+  color: white;
+  font-size: x-large;
+ 
+
+}
+
+.main-header-content {
+  color: white;
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+
+
+.main-header-content h1{
+    text-shadow: 4px 4px grey;
+}
+
+
+hr{
+    background-color: wheat;
+    height: 4px;
+    margin: 10px;
+    border: none;
+    
+}
+
+.main-header-content p{
+    margin: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    
+}
+
+.main-header-content a{
+    margin: 20px;
+    color:black;
+    padding: 10px;
+    background-color: wheat;
+    text-decoration: none;
+    transition: all .3s;
+    border-radius: 20px;
+    border:2px solid grey
+}
+
+.main-header-content a:hover{
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+
+
+/* NAV */
+
+.main-nav {
+	position: sticky;
+	top: 0;
+	background-color: wheat;
+	z-index: 100;
+}
+
+.main-nav label,
+.main-nav #drop-nav {
+	display: none;
+}
+
+.main-nav .nav-menu {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.main-nav .nav-menu .nav-menu-item {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.main-nav .nav-menu .nav-menu-item a {
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .3s;
+	padding: 14px 20px;
+	display: inline-block;
+}
+
+.main-nav .nav-menu .nav-menu-item a:hover {
+	background-color: #fff;
+    color: grey;
+    border-radius: 50%;
+}
+
+
+
+/* About */
+.about{
+  margin-bottom:20vh;
+}
+.about-container{
+    text-align: center;
+    margin: 10vh;
+}
+
+.about-container h2{
+  font-size: xx-large;
+}
+
+
+
+.about-container hr{
+  margin-bottom: 10vh;
+}
+
+.about-container header{
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+}
+
+.about-container-photo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid wheat;
+    margin: auto;
+  }
+
+  .about-container-photo img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.about-container p{
+  padding: 10vh 30vh;
+  text-align: justify;
+}
+/* Hobbies */
+
+.hobbies-container-header{
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+}
+
+.hobbies-container-header h2{
+  font-size:xx-large;
+}
+.hobbies-container-header p{
+  text-align: justify;
+  margin: 0;
+  padding: 0 30vh;
+}
+
+.hobbies-container-header hr{
+ margin-bottom: 0;
+}
+
+
+/* Skills */
+
+.skills-header{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15vh;
+    padding-top: 5vh;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.skills-container-inner{
+    width: 25%;
+    padding: 5vh;
+}
+
+.skills-container-inner i{
+    font-size: 5em;
+    color: wheat;
+    border-radius: 50%;
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    transition: all .3s;
+}
+
+.skills-container-inner p{
+    padding: 3vh;
+}
+
+.skills-container-inner i:hover{
+    background-color: black;
+}
+
+
+/* Slider */
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.mySlides img{
+  border-radius: 40px;
+
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+/* Footer */
+
+.form-container{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border:2px solid grey;
+    margin-bottom: 10vh;
+}
+
+.form-container input,textarea{
+width: 80%;
+margin: 10px;
+height: 5vh;
+}
+
+.form-header {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: xx-large;
+}
+
+
+input[type=submit]{
+    width: 20%;
+    background-color:#00cc00 ;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: grey;
+    padding: 10vh;
+}

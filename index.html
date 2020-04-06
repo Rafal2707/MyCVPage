@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <!-- Custom stylesheet -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rafał Projects</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header-header">
+        <h1>
+          Hello ! I'm Rafał, <br>
+           <span>Junior Front-end developer</span> <br>
+          Welcome to my page ! 
+        </h1>
+        <hr />
+      </div>
+      <div class="main-header-content">
+        <p>
+         I am really glad that You came on my page, so let's get know each
+          other ! :)
+        </p>
+        <a href="#about">Find out more !</a>
+      </div>
+    </header>
+
+    <nav class="main-nav">
+      <label for="drop-nav">Menu</label>
+      <input type="checkbox" id="drop-nav" />
+      <ul class="nav-menu">
+        <li class="nav-menu-item"><p><i class="fas fa-globe-europe"></i></p></li>
+        <li class="nav-menu-item"><a href="#about">About me</a></li>
+        <li class="nav-menu-item"><a href="#hobbies">Hobbies</a></li>
+        <li class="nav-menu-item"><a href="#skills">Skills</a></li>
+        <li class="nav-menu-item"><a href="#contact">Contact</a></li>
+        <li class="nav-menu-item"><p><i class="fas fa-globe-europe"></i></p></li>
+        
+      </ul>
+    </nav>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <header>
+          <h2>About me</h2>
+          <hr value="center" />
+        </header>
+        <div class="about-container-photo">
+          <img src="img/Img189744.jpg" alt="Rafał Pych" class="about-image" />
+        </div>
+        <p>
+          I am a graduate of the AGH University of Science and Technology at
+          which I studied Electrotechnics. At the same time, I'm studying
+          Finance and Accounting at the University of Economics. My professional
+          goal is to constantly acquire knowledge in the eld of IT industry,
+          which I have always been interested in, and gaining knowledge in
+          nancial analytics. I am passionate about new technologies, which is
+          why I would like to work in a team that will enable me to develop my
+          skills further. I am an open person who easily finds himself in the new
+          environment. I like to take on new challenges and constantly develop.
+        </p>
+      </div>
+      <div class="about-container" id="hobbies">
+        <div class="hobbies-container-header">
+          <h2>Hobbies</h2>
+          <hr />
+        </div>
+        <p>
+          In my free time I like to create new programming projects and improve
+          my skills in this field. In the summer, I often go on various trips -
+          I like traveling by hitchhiking and water sports -especially windsurfing. I am also very
+          interested in cars and different sports.
+        </p>
+      </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img
+            src="img/slider/monitor-1307227_1920.jpg"
+            style="width: 100%;"
+          />
+          <div class="text">Programming</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="img/slider/sunset-2295669_1920.jpg" style="width: 100%;" />
+          <div class="text">windsurfing</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="img/slider/hitcher-1693014_1920.jpg" style="width: 100%;" />
+          <div class="text">Hitchhiking</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img
+            src="img/slider/cross-speed-4814978_1920.jpg"
+            style="width: 100%;"
+          />
+          <div class="text">Motorsports</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img
+            src="img/slider/basketball-108622_1920.jpg"
+            style="width: 100%;"
+          />
+          <div class="text">Basketball</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <header class="skills-header">
+        <h2>My Skills</h2>
+        <hr />
+        <p>"Science is like an immeasurable sea. The more you drink her, the more thirsty you are. "</p>
+      </header>
+      <div class="skills-container">
+        <div class="skills-container-inner">
+          <i class="fab fa-html5"></i>
+          <p>HTML</p>
+        </div>
+        <div class="skills-container-inner">
+          <i class="fab fa-css3-alt"></i>
+          <p>CSS</p>
+        </div>
+        <div class="skills-container-inner">
+          <i class="fab fa-js-square"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="skills-container-inner">
+          <i class="fab fa-bootstrap"></i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="skills-container-inner">
+          <i class="fab fa-wordpress"></i>
+          <p>Wordpress</p>
+        </div>
+        <div class="skills-container-inner">
+          <i class="fab fa-git"></i>
+          <p>GIT</p>
+        </div>
+        <div class="skills-container-inner">
+          <i class="fab fa-react"></i>
+          <p>REACT</p>
+        </div>
+        <div class="skills-container-inner">
+          <i class="fab fa-sass"></i>
+          <p>SASS</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+    </section>
+    <section class="form-section" id="contact">
+      <form action="">
+        <div class="form-container">
+          <header class="form-header">
+            <h2>Contact me !</h2>
+            <hr />
+          </header>
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Surname" />
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="Number" />
+          <textarea
+            name=""
+            id=""
+            placeholder="Here You can write your message :)"
+          ></textarea>
+          <input type="submit" value="Send!" />
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div class="form-content">
+        <p>Posted by: Rafał Pych</p>
+        <p>
+          Contact information:
+          <a href="mailto:R.pych27@gmail.com">r.pych27@gmail.com</a>.
+        </p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
