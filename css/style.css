@@ -398,3 +398,17 @@ footer{
     background-color: grey;
     padding: 10vh;
 }
+
+.form-content {
+  font-size: 2em;
+
+}
+
+.form-content i{
+  transition: ease-in .3s;
+}
+
+.form-content i:hover {
+ color: white;
+ cursor: pointer;
+}
