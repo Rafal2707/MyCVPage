@@ -77,7 +77,13 @@
     
 }
 @media all  and (max-width: 550px) {
-
+    
+    .nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
     .main-header{
         height: 70vh
     }
@@ -88,6 +94,9 @@
     .main-header-content p{
         margin:0;
         margin-bottom: 50px;
+    }
+    .main-header-content a{
+        display: none;
     }
     .about{
         margin: 0;
@@ -105,8 +114,15 @@
     .skills-container-inner{
         width: 100%;
     }
-  }
+  
 
+  .projects-a-container a{
+        margin: 20px;
+    }
+    .projects-header-container{
+     width: 100%;
+    }
+}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
