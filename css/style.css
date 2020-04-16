@@ -34,19 +34,22 @@ span{
 
 
 .main-header-header{
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-name: slidein;
   text-shadow: 2px 2px black;
   text-align: center;
 
 }
 
+
 @keyframes slidein {
   from {
-    margin-top: 100%;
+    margin-top: 10%;
+    opacity: 0;
   }
 
   to {
+    opacity: 1;
   }
 }
 
