@@ -265,37 +265,48 @@ hr{
 .skills-container-inner i:hover{
     background-color: black;
 }
+
 /* Projects */
-.projects{
+.projects {
   text-align: center;
-  padding: 50px;
 }
 
-.projects-header-container{
-  text-align: center;
+.projects-header{
   width: 30%;
+  text-align: center;
   margin: auto;
 }
 
-.projects h2{
-  font-size: xx-large;
+.projects p{
+  text-align: center;
 }
-.projects a{
-  padding: 5vh;
-  background-color: grey;
-  color: wheat;
-  border-radius:20px;
-  border: 2px solid black;
-  font-size: 20px;
-  text-decoration: none;
+.projects img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  
 }
-.projects-a-container{
+.single-project{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 10vh auto;
+  margin: 30px;
+}
+.single-project a{
+  width: 50%;
+  text-align: right;
+}
+.single-project ul{
+  width: 50%;
+  text-align: left;
+}
+.single-project img{
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
 }
 
+.projects-container p{
+  font-weight: bold;
+  margin-top: 20px;
+}
 
 /* Slider */
 
@@ -432,7 +443,6 @@ input[type=submit]{
 footer{
     text-align: center;
     background-color: grey;
-    padding: 10vh;
 }
 
 .form-content {
@@ -442,6 +452,7 @@ footer{
 
 .form-content i{
   transition: ease-in .3s;
+  color: wheat;
 }
 
 .form-content i:hover {
