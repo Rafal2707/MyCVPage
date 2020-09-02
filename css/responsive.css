@@ -48,7 +48,7 @@
         height: 60vh;
     }
     .main-header-header{
-        margin-top: 0;
+        margin-top: 50px;
         margin-bottom: 0;
         font-size: medium;
     }
@@ -80,6 +80,8 @@
     
 }
 @media all  and (max-width: 550px) {
+
+
     
     .nav-menu{
     display: flex;
@@ -91,7 +93,8 @@
         font-size: 12px;
     }
     .main-header{
-        height: 70vh
+        height: 70vh;
+        background-attachment: scroll;
     }
     .main-header-header{
      width: 100%;
